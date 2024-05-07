@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+int main() {
+	#include <clocale>
+	int main();
+{
+		setlocale(LC_ALL, "Turkish");
+		int sayi;
+		cout << " Lütfen ürün fiyatını girin: ";
+		cin >> sayi;
+		switch (sayi)
+		{
+		case 1: cout << "Standart boy kahve";
+			break;
+		case 2: cout << "Orta boy kahve";
+			break;
+		case 3:cout << " Büyük boy kahve";
+			break;
+		default: cout << " Yanlış fiyat girdiniz"
+			break;
+		}
+
+	return 0;
+}
